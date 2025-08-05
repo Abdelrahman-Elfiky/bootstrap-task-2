@@ -56,6 +56,29 @@ nav img{
 .btn-primary{
   background-color: var(--btn-color);
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+.navbar-nav .nav-link {
+  white-space: nowrap;
+}
+.navbar .btn {
+  white-space: nowrap;
+}
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
 h1,h3{
   color: var(--text-color);
 }
@@ -112,7 +135,7 @@ h1,h3{
 }
 .hype {
   font-size: 3.25rem;
-  max-width: 40%;
+  max-width: 50%;
   margin: 0 auto;
   text-align: center;
 }
@@ -121,13 +144,14 @@ h1,h3{
 @media (max-width: 767.98px) {
   .hype {
     font-size: 2.25rem;
-    max-width: 90%;
+    max-width: 75%;
+    font-weight: 600;
   }
 }
-@media (min-width: 600px) and (max-width: 1399px) {
+@media (min-width: 768px) and (max-width: 1399px) {
   .hype {
-    /* font-size: 2.25rem; */
-    max-width: 85%;
+    font-size: 3.25rem;
+    max-width: 90%;
   }
 }
 .fs-7{
@@ -150,7 +174,10 @@ h1,h3{
   color: #B1CCFB;
   font-weight: 400;
 }
-
+.Subscribe h2{
+  width: 41rem;
+  font-size: 2rem;
+}
 .subscribe-description {
   color: var(--email-color);
 }
@@ -179,12 +206,20 @@ h1,h3{
 @media (min-width: 768px) and (max-width: 1399px){
   .Subscribe .row {
     flex-direction: column;
+    align-items: flex-start !important;
   }
 
   .Subscribe .col-md-6 {
     width: 100%;
   }
-
+.newsletter-form {
+  width: 564px;
+  height: 46px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  background-color: #fff;
+}
 }
 
 @media (max-width: 768px) {
@@ -206,12 +241,28 @@ h1,h3{
     padding: 0.5rem 1rem;
   }
 
-  .Subscribe .subscribe-description {
-    text-align: center !important;
+  .Subscribe h2 {
+    font-size: 1.75rem; /* 28px */
+    line-height: 2.25rem; /* 36px */
+    letter-spacing: -0.02em; /* -2% */
+    font-weight: 600;
+    width: 21.4375rem; /* 343px */
+    margin: 0; /* نلغي auto */
+    text-align: left;
   }
 
-  .Subscribe h2 {
-    font-size: 1.5rem;
+  .Subscribe .subscribe-description {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    letter-spacing: -0.00625rem; /* -0.1px */
+    font-weight: 400;
+    width: 21.4375rem; /* 343px */
+    margin: 0;
+    text-align: left !important;
+  }
+
+  .Subscribe .col-12 {
+    text-align: left !important;
   }
 }
 /* subscribe end */
@@ -225,6 +276,9 @@ h1,h3{
 .main-post,
 .side-posts {
   width: 100%;
+}
+.main-post,.side-posts h2{
+  font-size: 1.375rem;
 }
 
 @media (min-width: 992px) {
@@ -280,6 +334,12 @@ h1,h3{
   font-size: 1rem;
   color: var(--text-description);
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .responsive{
+  display: flex;
+  flex-direction: column-reverse !important;
+}
+}
 /* posts end */
 /* footer start */
 .footer p {
@@ -290,6 +350,7 @@ h1,h3{
 .footer ul li a {
   color: var(--link-color) !important;
   font-size: 1rem;
+  text-decoration: none;
 }
 .footer ul li {
   padding-top: 0.75rem;
@@ -307,6 +368,7 @@ h1,h3{
   height: 2.875rem;
   font-size: 0.9rem;
   flex: 1;
+  width: 13.8125rem;
 }
 .small {
   color: var(--link-color);
@@ -314,8 +376,18 @@ h1,h3{
 .footer-form .email-input::placeholder {
   color: var(--link-color);
 }
+.footer-links-area {
+  padding-left: 0;
+  padding-right: 0;
+}
+.footer img{
+  width: 9.375rem;
+}
 
 @media (max-width: 767.98px) {
+  body {
+  overflow-x: hidden;
+}
   .footer-form {
     flex-direction: column;
     align-items: stretch;
@@ -369,6 +441,8 @@ h1,h3{
     flex-wrap: nowrap;
     justify-content: space-between;
     text-align: left;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .footer-links-area .footer {
