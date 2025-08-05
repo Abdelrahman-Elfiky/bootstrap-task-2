@@ -8,113 +8,119 @@
     <title>Lookscout</title>
   </head>
   <body>
-    <header>
-      <nav class="shadow px-6 py-6 navbar navbar-expand-md bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img src="./assets/imgs/Lookscout.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+    <nav class="shadow py-6 navbar navbar-expand-md bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/imgs/Lookscout.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul
-              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-              style="--bs-scroll-height: 100px"
-            >
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our Products</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Resources
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contacts</a>
-              </li>
-            </ul>
-            <div class="d-flex gap-2">
-              <button class="btn btn-outline-primary btn-sm border-0 fs-6">
-                Sign Up
-              </button>
-              <button
-                class="btn btn-primary btn-sm px-3 py-2 fs-6"
-                data-bs-toggle="modal"
-                data-bs-target="#loginModal"
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
-                Log In
-              </button>
-            </div>
+                Resources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contacts</a>
+            </li>
+          </ul>
+          <div class="d-flex gap-2 buttons">
+            <button class="btn btn-outline-primary btn-custom border-0">
+              Sign Up
+            </button>
+            <button
+              class="text-light bg-color-blue-100 border-0 px-7 py-9 fw-semibold rounded"
+              data-bs-toggle="modal"
+              data-bs-target="#loginModal"
+            >
+              Log In
+            </button>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+
     <main>
-      <section class="py-5 text-center">
-        <div class="container mx-auto text-center align-items-center">
-          <div class="text text-center">
-            <p class="text-primary fw-semibold fs-7">1% OF THE INDUSTRY</p>
-            <h2 class="hype display-5 fw-bold mb-3 text-break mx-auto">
+      <section class="text-center">
+        <div class="container">
+          <div class="py-7 w-50 mx-auto">
+            <p class="text-color-blue-100 fw-semibold small">
+              1% OF THE INDUSTRY
+            </p>
+            <h1 class="fw-bold display-5 text-color-gray-100 mb-3 w-md-100">
               Hype got you here. of it. Stay for best ever help.
-            </h2>
+            </h1>
           </div>
         </div>
       </section>
       <div class="responsive d-flex flex-column flex-md-column">
         <section
-          class="Subscribe py-5 bg text-white text-center text-md-start bg-primary order-2 order-md-1"
+          class="Subscribe py-8 bg text-white text-center text-md-start bg-color-blue-200 order-2 order-md-1"
         >
-          <div class="container ">
-            <div class="row align-items-center gx-5 d-flex justify-content-between">
-              <div class="col-12 col-md-5 mb-4 mb-md-0">
-                <h2 class="fw-bold mb-3">
+          <div class="container">
+            <div
+              class="row align-items-center gx-5 d-flex justify-content-between"
+            >
+              <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <h2 class="fw-bold mb-4 fs-2 mb-md-3">
                   Welcome to your new digital reality that will rock your world.
                 </h2>
-                <p class="subscribe-description mb-0">
+                <p class="mb-0 text-color-blue-300 mb-md-4">
                   Let us help you take you from zero to serious business and
                   beyond. Our no-strings attached free trial lets you test our
                   product today.
                 </p>
               </div>
 
-              <div class="col-12 col-md-5 ">
+              <div class="col-12 col-md-5">
                 <form class="newsletter-form mx-auto mx-md-0">
                   <input
                     type="email"
-                    class="form-control email-input"
+                    class="form-control email-input py-sm-3"
                     placeholder="Enter your email"
                   />
-                  <button type="submit" class="btn btn-primary submit-btn">
+                  <button
+                    type="submit"
+                    class="bg-color-blue-100 border-0 text-light px-4  h-100 rounded-end py-2 py-sm-3  d-flex align-items-center justify-content-center"
+                  >
                     Submit
                   </button>
                 </form>
-                <p class="subscribe-description text-center text-md-start mt-2">
+                <p class="text-color-blue-300 text-center text-md-start mt-2">
                   Subscribe to our newsletter
                 </p>
               </div>
@@ -122,50 +128,48 @@
           </div>
         </section>
 
-        <section class="my-4 py-5 order-1 order-md-2">
+        <section class="py-5 order-1 order-md-2">
           <div class="container">
             <div
               class="row gx-5 align-items-stretch justify-content-center blog-section-layout"
             >
-              
-              <div class="main-post d-flex flex-column mb-4">
+              <div class="main-post col-12 col-md-6 d-flex flex-column mb-4">
                 <div class="bg-white p-4 main-post-wrapper d-flex flex-column">
-                  <picture>
+                  <picture class="rounded-5 mb-4">
                     <img
                       src="./assets/imgs/Tooltip.png"
-                      class="main-post-img mb-3"
+                      class="main-post-img mb-3 h-100 object-fit-cover"
                       alt="Main Post"
                     />
                   </picture>
-                  <h2 class="fw-bold mb-2 post-title">
+                  <h2 class="fw-bold mb-2 post-title mb-3">
                     Reach your users with new tools. Reach your users with new
                     tools. Reach your users with new tools.
                   </h2>
-                  <p class="post-description">
+                  <p class="post-description text-color-gray-200 mb-3">
                     Efficiently unleash cross-media information without
                     cross-media value. Quickly maximize. Efficiently unleash
                     cross-media information without cross-media value. Quickly
                     maximize. Efficiently unleash cross-media.
                   </p>
-                  <p class="text-muted small mt-auto">25 Apr 2022</p>
+                  <p class="text-muted small mt-auto fs-6">25 Apr 2022</p>
                 </div>
               </div>
 
-
-              <div class="side-posts d-flex flex-column gap-5 ">
-                <div class="d-flex small-post align-items-start mt-4">
-                  <picture>
+              <div class="side-posts col-12 col-md-6 d-flex flex-column gap-4">
+                <div class="d-flex small-post align-items-start mt-4 mb-2">
+                  <picture class="rounded-5">
                     <img
                       src="./assets/imgs/Container.png"
-                      class="side-post-img me-3"
+                      class="side-post-img me-3 h-100 object-fit-cover"
                       alt="Post"
                     />
                   </picture>
                   <div>
-                    <h2 class="fw-bold mb-1 post-title">
+                    <h2 class="fw-bold mb-1 post-title text-color-gray-100">
                       Reach your users with new tools
                     </h2>
-                    <p class="post-description mb-1">
+                    <p class="post-description mb-1 text-color-gray-200">
                       Efficiently unleash cross-media information without
                       cross-media value. Quickly maximize.
                     </p>
@@ -174,45 +178,45 @@
                 </div>
 
                 <div class="d-flex small-post align-items-start">
-                  <picture>
+                  <picture class="rounded-5">
                     <img
                       src="./assets/imgs/Container (1).png"
-                      class="side-post-img me-3"
+                      class="side-post-img me-3 h-100 object-fit-cover"
                       alt="Post"
                     />
                   </picture>
                   <div>
-                    <h2 class="fw-bold mb-1 post-title">
+                    <h2 class="fw-bold mb-1 post-title text-color-gray-100">
                       Faster ways to reach your customer
                     </h2>
-                    <p class="post-description mb-1">
+                    <p class="post-description mb-1 text-color-gray-200">
                       Completely synergize resource taxing relationships via
                       premier niche markets.
                     </p>
                     <p class="text-muted small mb-0">
-                      25 Apr 2022 • Blog theme
+                      25 Apr 2022 - Blog theme
                     </p>
                   </div>
                 </div>
 
                 <div class="d-flex small-post align-items-start">
-                  <picture>
+                  <picture class="rounded-5">
                     <img
                       src="./assets/imgs/Container (2).png"
-                      class="side-post-img me-3"
+                      class="side-post-img me-3 h-100 object-fit-cover"
                       alt="Post"
                     />
                   </picture>
                   <div>
-                    <h2 class="fw-bold mb-1 post-title">
+                    <h2 class="fw-bold mb-1 post-title text-color-gray-100">
                       Revolutionizing the Design Industry
                     </h2>
-                    <p class="post-description mb-1">
+                    <p class="post-description mb-1 text-color-gray-200">
                       Efficiently unleash cross-media information without
                       cross-media value. Quickly maximize.
                     </p>
                     <p class="text-muted small mb-0">
-                      25 Apr 2022 • Blog theme
+                      25 Apr 2022 - Blog theme
                     </p>
                   </div>
                 </div>
@@ -221,161 +225,168 @@
           </div>
         </section>
       </div>
-
-      <div class="mb-4 container blog-cards-container">
-        <h2 class="text-center section-title blog-title">Latest Blog Posts</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
-          <div class="col">
-            <div class="card h-100">
-              <picture>
-                <img
-                  src="./assets/imgs/Rectangle 1.png"
-                  class="card-img-top img-fluid object-fit-cover"
-                  alt="..."
-                />
-              </picture>
-              <div class="card-body">
-                <p class="text-muted small">25 Apr 2022</p>
-                <h3 class="h5 fw-bold card-title">
-                  Organize your digital assets with a new methodology and there.
-                </h3>
-                <a href="#" class="text-primary text-decoration-none small"
-                  >Learn more →</a
-                >
+      <section class="mb-5 py-5 d-flex flex-row gap-2">
+        <div class=" container ">
+          <h2 class="text-center section-title blog-title text-color-gray-100">
+            Latest Blog Posts
+          </h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+            <div class="col">
+              <div class="card h-100">
+                <picture class="mb-3">
+                  <img
+                    src="./assets/imgs/Rectangle 1.png"
+                    class="card-img-top img-fluid object-fit-cover"
+                    alt="..."
+                  />
+                </picture>
+                <div class="card-body p-0">
+                  <p class="text-muted small text-color-gray-200 mb-2">25 Apr 2022</p>
+                  <h3 class="h5 fw-bold card-title mb-3">
+                    Organize your digital assets with a new methodology and
+                    there.
+                  </h3>
+                  <a href="#" class="text-color-blue-100 text-decoration-none small fw-semibold fs-6"
+                    >Learn more →</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card h-100">
-              <picture>
-                <img
-                  src="./assets/imgs/Rectangle 1 (1).png"
-                  class="card-img-top img-fluid object-fit-cover"
-                  alt="..."
-                />
-              </picture>
-              <div class="card-body">
-                <p class="text-muted small">25 Apr 2022</p>
-                <h3 class="h5 fw-bold card-title">
-                  Organize your digital assets with a methodology here and
-                  there.
-                </h3>
-                <a href="#" class="text-primary text-decoration-none small"
-                  >Learn more →</a
-                >
+            <div class="col">
+              <div class="card h-100">
+                <picture class="mb-3">
+                  <img
+                    src="./assets/imgs/Rectangle 1 (1).png"
+                    class="card-img-top img-fluid object-fit-cover "
+                    alt="..."
+                  />
+                </picture>
+                <div class="card-body p-0">
+                  <p class="text-muted small text-color-gray-200 mb-2">25 Apr 2022</p>
+                  <h3 class="h5 fw-bold card-title mb-3">
+                    Organize your digital assets with a methodology here and
+                    there.
+                  </h3>
+                  <a href="#" class="text-color-blue-100 text-decoration-none small fw-semibold fs-6"
+                    >Learn more →</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card h-100">
-              <picture>
-                <img
-                  src="./assets/imgs/Rectangle 1 (2).png"
-                  class="card-img-top img-fluid object-fit-cover"
-                  alt="..."
-                />
-              </picture>
-              <div class="card-body">
-                <p class="text-muted small">25 Apr 2022</p>
-                <h3 class="h5 fw-bold card-title">
-                  Organize your digital assets with a new methodology here and
-                  there.
-                </h3>
-                <a href="#" class="text-primary text-decoration-none small"
-                  >Learn more →</a
-                >
+            <div class="col">
+              <div class="card h-100">
+                <picture class="mb-3">
+                  <img
+                    src="./assets/imgs/Rectangle 1 (2).png"
+                    class="card-img-top img-fluid object-fit-cover"
+                    alt="..."
+                  />
+                </picture>
+                <div class="card-body p-0">
+                  <p class="text-muted small text-color-gray-200 mb-2">25 Apr 2022</p>
+                  <h3 class="h5 fw-bold card-title mb-3">
+                    Organize your digital assets with a new methodology here and
+                    there.
+                  </h3>
+                  <a href="#" class="text-color-blue-100 text-decoration-none small fw-semibold fs-6"
+                    >Learn more →</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card h-100">
-              <picture>
-                <img
-                  src="./assets/imgs/Rectangle 1 (3).png"
-                  class="card-img-top img-fluid object-fit-cover"
-                  alt="..."
-                />
-              </picture>
-              <div class="card-body">
-                <p class="text-muted small">25 Apr 2022</p>
-                <h3 class="h5 fw-bold card-title">
-                  Organize your digital assets with a new methodology and there.
-                </h3>
-                <a href="#" class="text-primary text-decoration-none small"
-                  >Learn more →</a
-                >
+            <div class="col">
+              <div class="card h-100">
+                <picture class="mb-3">
+                  <img
+                    src="./assets/imgs/Rectangle 1 (3).png"
+                    class="card-img-top img-fluid object-fit-cover"
+                    alt="..."
+                  />
+                </picture>
+                <div class="card-body p-0">
+                  <p class="text-muted small text-color-gray-200 mb-2">25 Apr 2022</p>
+                  <h3 class="h5 fw-bold card-title mb-3">
+                    Organize your digital assets with a new methodology and
+                    there.
+                  </h3>
+                  <a href="#" class="text-color-blue-100 text-decoration-none small fw-semibold fs-6"
+                    >Learn more →</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card h-100">
-              <picture>
-                <img
-                  src="./assets/imgs/Rectangle 1 (4).png"
-                  class="card-img-top img-fluid object-fit-cover"
-                  alt="..."
-                />
-              </picture>
-              <div class="card-body">
-                <p class="text-muted small">25 Apr 2022</p>
-                <h3 class="h5 fw-bold card-title">
-                  Organize your digital assets with a methodology here and
-                  there.
-                </h3>
-                <a href="#" class="text-primary text-decoration-none small"
-                  >Learn more →</a
-                >
+            <div class="col ">
+              <div class="card h-100">
+                <picture class="mb-3">
+                  <img
+                    src="./assets/imgs/Rectangle 1 (4).png"
+                    class="card-img-top img-fluid object-fit-cover"
+                    alt="..."
+                  />
+                </picture>
+                <div class="card-body p-0">
+                  <p class="text-muted small text-color-gray-200 mb-2">25 Apr 2022</p>
+                  <h3 class="h5 fw-bold card-title mb-3">
+                    Organize your digital assets with a methodology here and
+                    there.
+                  </h3>
+                  <a href="#" class="text-color-blue-100 text-decoration-none small fw-semibold fs-6"
+                    >Learn more →</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card h-100">
-              <picture>
-                <img
-                  src="./assets/imgs/Rectangle 1 (5).png"
-                  class="card-img-top img-fluid object-fit-cover"
-                  alt="..."
-                />
-              </picture>
-              <div class="card-body">
-                <p class="text-muted small">25 Apr 2022</p>
-                <h3 class="h5 fw-bold card-title">
-                  Organize your digital assets with a new methodology here and
-                  there.
-                </h3>
-                <a href="#" class="text-primary text-decoration-none small"
-                  >Learn more →</a
-                >
+            <div class="col">
+              <div class="card h-100">
+                <picture class="mb-3">
+                  <img
+                    src="./assets/imgs/Rectangle 1 (5).png"
+                    class="card-img-top img-fluid object-fit-cover"
+                    alt="..."
+                  />
+                </picture>
+                <div class="card-body p-0">
+                  <p class="text-muted small text-color-gray-200 mb-2">25 Apr 2022</p>
+                  <h3 class="h5 fw-bold card-title mb-3">
+                    Organize your digital assets with a new methodology here and
+                    there.
+                  </h3>
+                  <a href="#" class="text-color-blue-100 text-decoration-none small fw-semibold fs-6"
+                    >Learn more →</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <section class="bg-primary stay-section custom text-center text-white">
-        <div class="custom-container w-100">
+      <section class="bg-color-blue-200 stay-section custom text-center text-white py-8 w-100 ">
+        <div class="container w-100">
           <div id="carouselExample" class="carousel slide h-100">
             <div class="carousel-inner h-100">
               <div class="carousel-item active">
                 <div
                   class="d-flex align-items-center justify-content-center h-100 pt-5"
                 >
-                  <div class="text-center container ">
-                    <p class="text-light fs-7 section-label fw-semibold">
+                  <div class="text-center container w-100">
+                    <div class=" mx-auto text-center">
+                    <p class="text-light fs-7 section-label fw-semibold mb-2">
                       1% OF THE INDUSTRY
                     </p>
-                    <h2 class="section-heading fw-bold ">
+                    <h2 class="section-heading fw-bold mb-6 fs-2">
                       Welcome to your new digital reality that which will rock
                       your world truly at all.
                     </h2>
+                    </div>
                     <div class="button-group mt-4">
                       <button
-                        class="btn btn-light btn-sm btn-signup"
+                        class="btn btn-light  text-color-blue-100 border-0 py-9 px-7  rounded fw-semibold fs-6"
                         data-bs-toggle="modal"
                         data-bs-target="#loginModal"
                       >
@@ -383,7 +394,7 @@
                       </button>
 
                       <button
-                        class="btn  btn-sm btn-login"
+                        class="btn btn-sm btn-login py-sm-3 fs-6"
                         data-bs-toggle="modal"
                         data-bs-target="#loginModal"
                       >
@@ -448,30 +459,35 @@
     </main>
     <footer class="bg-dark text-light pt-5 pb-3">
   <div class="container">
-    <div class="row align-items-start justify-content-between ">
+    <div class="row align-items-start justify-content-between">
+      <!-- Logo + Form -->
       <div class="footer-logo-area col-12 col-lg-3 text-md-start text-center mb-4 pe-lg-1">
         <a href="#">
           <img class="mb-3" src="./assets/imgs/Lookscout (1).png" alt="Logo" />
         </a>
-        <p class="small mb-3 fs-6">
-          Generate outside the box thinking with the possibility to targtet the low.
+        <p class="small mb-3 fs-6 text-color-gray-300">
+          Generate outside the box thinking with the possibility to target the low.
         </p>
-        <form class="footer-form d-flex justify-content-center flex-wrap me-3">
-          <input
-            type="email"
-            class="form-control email-input "
-            placeholder="Enter your email"
-          />
-          <button type="submit" class="btn btn-primary submit-btn">
-            Submit
-          </button>
-        </form>
+        <form class="d-flex align-items-stretch w-100  mx-md-0 me-3   " role="form">
+  <input
+    type="email"
+    class="bg-color-gray-100 text-color-gray-300  border-0 w-100  py-9 px-3 bg-color-gray-400 rounded-start"
+    placeholder="Enter your email"
+  />
+  <button
+    type="submit"
+    class=" bg-color-blue-100 border-0 text-light px-3 rounded-end"
+  >
+    Submit
+  </button>
+</form>
       </div>
 
-      <div class="footer-links-area row col-12 col-lg-8 text-md-start ps-lg-5">
-        <div class="footer col-12 col-sm-6 col-md-2 col-lg-2 mb-4">
+      <!-- Footer Links -->
+      <div class="footer-links-area col-12 col-lg-8 row ps-lg-5">
+        <div class="footer col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
           <p>Why Choose Us?</p>
-          <ul class="list-unstyled small">
+          <ul class="list-unstyled small text-color-gray-300">
             <li><a href="#">Scale</a></li>
             <li><a href="#">Solutions</a></li>
             <li><a href="#">Our Competition</a></li>
@@ -482,7 +498,7 @@
         </div>
         <div class="footer col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
           <p>Company</p>
-          <ul class="list-unstyled small">
+          <ul class="list-unstyled small text-color-gray-300">
             <li><a href="#">Leadership</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Investor Relations</a></li>
@@ -491,7 +507,7 @@
         </div>
         <div class="footer col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
           <p>Resources</p>
-          <ul class="list-unstyled small">
+          <ul class="list-unstyled small text-color-gray-300">
             <li><a href="#">Community</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Help Center</a></li>
@@ -501,7 +517,7 @@
       </div>
     </div>
 
-    <p class="copy-right text-center small mt-4 pt-3">
+    <p class="copy-right text-center small mt-4 pt-3 text-color-gray-300">
       © 2025 Lookscout. All rights reserved.
     </p>
   </div>
